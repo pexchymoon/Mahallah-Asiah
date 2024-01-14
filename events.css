@@ -1,0 +1,87 @@
+.t1 h2,
+.t2 h2 {
+    background-color: #ADB88E;
+    color: white;
+    font-family: Mitr;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+.context1,
+.context2,
+.context3,
+.context6 {
+    background-color: #F9FFE2;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 20px 30px 20px;
+    box-shadow: 0px 4px 4px grey;
+}
+
+.context4,
+.context5 {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 20px 30px 20px;
+    box-shadow: 0px 4px 4px grey;
+}
+
+.context1 p,
+.context2 p,
+.context3 p,
+.context4 p,
+.context6 p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.context1 img,
+.context2 img,
+.context3 img,
+.context4 img,
+.context6 img {
+    width: 30%;
+    height: 30%;
+}
+
+.context5 img {
+    width: 40%;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust padding and margin for context elements */
+    .context1,
+    .context2,
+    .context3,
+    .context4,
+    .context5,
+    .context6 {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    /* Adjust margin for description */
+    .desc {
+        margin-top: 20px;
+    }
+}
