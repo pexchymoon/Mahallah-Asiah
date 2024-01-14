@@ -1,0 +1,91 @@
+.contact-info {
+    display: flex;
+    justify-content: center;
+    font-family: 'Mitr', 'Source Sans Pro';
+}
+
+.contact-info .square,
+.square1 {
+    background-color: #ADB88E;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.OSeM,
+.maintenance {
+    background-color: #D9D9D9;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 0px 4px 4px grey;
+    max-width: 350px;
+    text-align: center;
+}
+
+#map {
+    height: 60vh;
+    /* Set an initial height as a percentage of the viewport height */
+    width: 50%;
+    background-color: #D9D9D9;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 4px grey;
+}
+
+.OSeM,
+.maintenance,
+#map img {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.OSeM,
+.maintenance,
+#map h2 {
+    margin-top: 10px;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    /* Center the button horizontally with some top margin */
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    /* Add padding for better appearance */
+    background-color: #ADB88E;
+    /* Green background color */
+    color: white;
+    /* White text color */
+}
+
+@media screen and (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        /* Stack the contact info items vertically on smaller screens */
+        align-items: center;
+        /* Center items horizontally */
+    }
+
+    .OSeM,
+    .maintenance {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #map {
+        height: 30vh;
+        /* Adjust the height for smaller screens */
+        margin: 5px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

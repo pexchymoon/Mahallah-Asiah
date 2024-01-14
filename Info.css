@@ -1,0 +1,107 @@
+.principle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.principle p{
+    background-color: #ADB88E;
+    text-align: justify;
+    text-align-last: center;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 2rem;
+    margin-left: 20px;
+    padding: 25px;
+}
+
+.principle img{
+    max-width: 100%;
+    height: auto;
+}
+
+.fellow {
+    background: #ADB88E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+    padding: 20px;
+}
+
+.fellow img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add spacing between images */
+}
+
+.manager, .senior, .admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.manager p, .senior p, .admin p{
+    background-color: #ADB88E;
+    text-align: left;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 2rem;
+}
+
+.mrc, .brc{
+    background-color: #ADB88E;
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.mrc img, .brc img{
+    max-width: 100%;
+    height: auto;
+}
+
+#Management h2 {
+    padding-top: 30px;
+    text-align: center;
+    color: #737A5F;
+    font-size: 30px;
+    font-family: Mitr;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+
+  /* Add a mobile-first media query for small screens */
+@media screen and (max-width: 768px) {
+    .principle {
+        flex-direction: column; /* Stack the elements vertically on small screens */
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .principle p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .fellow, .manager, .senior, .admin, .mrc, .brc {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .manager, .senior, .admin p {
+        text-align: center;
+    }
+}

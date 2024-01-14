@@ -1,0 +1,25 @@
+.faq {
+  background-color: #D9D9D9;
+  color: darkslategray;
+  text-align: center; /* Center-align text within .faq */
+}
+
+.faq #additional {
+  background-color: #ADB88E;
+  font-size: 40px;
+  font-family: Mitr;
+  color: white;
+}
+
+.faq p {
+  padding-bottom: 20px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+

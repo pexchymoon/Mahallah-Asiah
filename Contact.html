@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="Contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="background-image"></div>
+        <div class="container">
+            <div class="logo">
+                <img id="asiah" src="/Project/image/MainLogoAsiah.png" alt="Mahallah Asiah" width="50" height="50" />
+                <img id="iium" src="/Project/image/FormalLogoIIUM.png" alt="IIUM" width="200" height="50" />
+            </div>
+
+            <div class="overlay">
+                <section>
+                    <ul class="navigation">
+                        <li><a href="../Project/Homepage.html">Home</a></li>
+                        <li><a href="../Project/About.html">About Us</a></li>
+                        <li><a href="../Project/Info.html">Management</a></li>
+                        <li><a href="../Project/Facilities.html">Facilities</a></li>
+                        <li><a href="../Project/Rules.html">Rules & Regulations</a></li>
+                        <li><a href="../Project/Event.html">Event</a></li>
+                        <li>Contact Us</li>
+                        <li><a href="../Project/Faq.html">FAQ</a></li>
+                    </ul>
+                    <div class="toggle_btn"><i class="fa-solid fa-bars"></i></div>
+                </section>
+
+                <div class="dropdown_menu">
+                    <nav>
+                        <li><a href="../Project/Homepage.html">Home</a></li>
+                        <li><a href="../Project/About.html">About Us</a></li>
+                        <li><a href="../Project/Info.html">Management</a></li>
+                        <li><a href="../Project/facilities.html">Facilities</a></li>
+                        <li><a href="../Project/Rules.html">Rules & Regulations</a></li>
+                        <li><a href="../Project/Event.html">Event</a></li>
+                        <li>Contact Us</li>
+                        <li><a href="../Project/Faq.html">FAQ</a></li>
+                    </nav>
+                </div>
+
+                <h1>﷽</h1>
+                <h1>WE LISITEN WE CARE</h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact-info">
+        <div class="OSeM">
+            <img id="osem" src="/Project/image/OSeM.png" alt="OSeM" width="50" height="50" />
+            <h2>OFFICE SECURITY MANAGEMENT (OSeM)</h2>
+            <div class="square">
+                <h3>Facebook: IIUMAUXILIARYPOLICE</h3>
+            </div>
+            <img id="osem" src="/Project/image/osemqr.jpg" alt="" width="150" height="150" />
+            <button>Scan Me</button>
+            <p>Visit OSeM Facebook for more info or dial the number below</p>
+            <p><strong>03-6421 5555 <br>
+                    03-6421 5554 <br>
+                    03-6421 4173</strong></p>
+        </div>
+
+        <div id="map"></div>
+
+        <div class="maintenance">
+            <img id="osem" src="/Project/image/maintenance.jpg" alt="" width="50" height="50" />
+            <h2>ONLINE MAHALLAH MAINTENANCE COMPLAINT</h2>
+            <div class="square1">
+                <h3><a href="https://tinyurl.com/mahallahmaintenance">https://tinyurl.com/mahallahmaintenance</a></h3>
+            </div>
+            <img id="osem" src="/Project/image/maintenanceqr.jpg" alt="" width="150" height="150" />
+            <button>Scan Me</button>
+            <p>For any defect on major problems that needs immediate action. Kindly make a direct call to DBSB Helpdesk
+            </p>
+            <p><strong>03-6421 5415.</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>CONTACT US:</h2>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/pages/Mahallah-Asiah-UIAM/152022988180735"><i
+                                class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/mahallahasiah/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li><a href="https://twitter.com/MahallahAsiah"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="mahallahasiah@live.iium.edu.my"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+                <p>MAHALLAH ASIAH,</p>
+                <p>INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA,</p>
+                <P>P.O. BOX 1O,</P>
+                <P>50728, KUALA LUMPUR,</P>
+                <P>MALAYSIA</P>
+            </div>
+
+            <div class="map">
+                <img src="../Project/image/mahallah ahsiahmap.jpg" alt="asia map" width="200" height="200">
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright 2023 Mahallah Asiah</p>
+        </div>
+
+    </footer>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+
+    <script>
+        function initMap() {
+            var location = { lat: 3.2582565119379603, lng: 101.73259124399596 };
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            })
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyWc2X2EqgBetMi4zjVZlYAFeAdCyzNXw&callback=initMap"></script>
+
+</body>
+
+</html>
